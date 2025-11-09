@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+/* 讓畫面全螢幕且不產生滾動條 */
+html, body, #sketch-holder {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
